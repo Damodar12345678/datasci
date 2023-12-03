@@ -10,6 +10,8 @@ from ta.momentum import RSIIndicator
 
 ##################
 # Set up sidebar #
+
+option = st.sidebar.selectbox('Select one symbol', ( 'AAPL', 'MSFT',"SPY",'WMT'))
 ##################
 
 # Add in location to select image.
