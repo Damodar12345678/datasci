@@ -16,7 +16,6 @@ option = st.sidebar.selectbox('Select one symbol', ( 'AAPL', 'MSFT',"SPY",'WMT')
 
 # Add in location to select image.
 
-option = st.sidebar.selectbox('Select one symbol', ( 'AAPL', 'MSFT',"SPY",'WMT'))
 
 
 import datetime
